@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e1e1e;
+  font-family: Inter;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 24px 20px;
+  justify-content: space-between;
+}
+.content-section {
+  width: 360px;
+  margin: auto;
+}
+.content-section_theme_dark {
+background-color: #131313;
+color: #f5f5f5;
+}
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+.header__logo-image {
+  width: 78.75px;
+  height: 15.43px;
+}
+.header__menu {
+  width: 75px;
+  height: 84px;
+}
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.header__menu-link {
+  text-decoration: underline;
+}
+.cover {
+  display: block;
+  padding: 7px 0 30px 20px;
+  min-height: 198px;
+  background-image: url(./../images/cover.svg);
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  background-position: right; 
+}
+.cover__title {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+  padding-right: 20px;
+}
+.accent-span {
+  display: block;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.intro {
+  padding: 0px 20px 38px 20px;
+}
+.intro__heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #cccccc;
+}
+.intro__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 320px;
+  height: 38px;
+}
+.intro__date {
+  align-content: right;
+  white-space: nowrap;
+  width: 101px;
+  height: 19px;
+}
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 24px;
+  gap: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21,6px;
+  color: #F5F5F5;
+}
+.reasons {
+  padding: 40px 20px;
+}
+.content-section__subtitle {
+  font-family: 'EB Garamond Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: right;
+}
+.content-section__introduction {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.content-section__list-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  text-align: left;
+  padding-top: 16px;
+  list-style-position: inside;
+}
+.content-section__list-accent {
+  font-family: 'Inter Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+.how-to {
+  padding: 40px 20px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 8px;
+}
+.cards-list {
+  gap: 32px;
+  list-style: none;
+}
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  gap: 8;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+.card_theme_dark{
+background-color: #343434;
+}
+.card_theme_bright {
+background-color: #FEE42A;
+color: #131313;
+}
+.card__author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card__author-photo {
+width: 100px;
+height: 100px;
+border-radius: 50px;
+}
+.card__author-name {
+font-family: 'Inter Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+}
+.card-content {
+  gap: 8px;
+}
+.card__title {
+font-family: 'EB Garamond Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+margin: 8px 0px;
+}
+.card__text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+.card_text-only {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+}
+main {
+  margin: auto;
+  width: 360px;
+  box-sizing: border-box;
+}
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+}
+.footer__copy {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.footer__links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
