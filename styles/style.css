@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e1e1e;
+  font-family: Inter;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote, body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 20px;
+  justify-content: space-between;
+}
+.content-section {
+  width: 360px;
+  margin: auto;
+}
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+.header__logo {
+  display: block;
+  width: 78px;
+}
+.header__logo-image {
+  width: 100%;
+}
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.header__menu-link {
+  text-decoration: underline;
+}
+.cover {
+  padding: 7px 24px 35px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 95% auto;
+}
+.cover__title {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100%;
+}
+.accent-span {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 0 20px 38px;
+}
+.intro__heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  color: #cccccc;
+}
+.intro__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 320px;
+  height: 38px;
+}
+.intro__date {
+  align-content: right;
+  white-space: nowrap;
+  width: 101px;
+  height: 19px;
+}
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #F5F5F5;
+}
+.reasons {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.content-section__subtitle {
+  font-family: 'EB Garamond Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+.content-section__introduction {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  gap: 16px;
+}
+.content-section__list-item {
+  line-height: 21.6px;
+}
+.content-section__list-accent {
+  font-family: 'Inter Bold';
+  font-style: normal;
+  font-weight: 700;
+}
+.how-to {
+  padding: 40px 20px 28px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.cards-list {
+  gap: 32px;
+  list-style: none;
+}
+.card {
+  padding: 20px;
+  border-radius: 30px;
+  gap: 8px;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+.card_theme_dark {
+  background-color: #343434;
+}
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+.card__author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-bottom: 3px;
+}
+.card__author-name {
+  font-family: 'Inter Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.card__title {
+  font-family: 'EB Garamond Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.card__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.card_text-only {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  justify-content: space-between;
+}
+.footer__copy {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.footer__links {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
